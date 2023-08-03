@@ -67,6 +67,8 @@ address {
 }
 
 .section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-title {
@@ -115,12 +117,12 @@ address {
 .nav {
   align-items: center;
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+}
+.logo_header-link {
+  margin-right: 76px;
 }
 .logo_header {
   color: var(--navyblue);
-  margin-right: 76px;
 }
 .nav-list {
   display: flex;
@@ -128,6 +130,8 @@ address {
   gap: 40px;
 }
 .nav-list_item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-list_link {
   font-size: 16px;
@@ -197,6 +201,7 @@ address {
   padding: 16px 32px;
   border-radius: 4px;
   border: none;
+  min-width: 169px;
 }
 
 .hero-btn:hover,
@@ -236,7 +241,6 @@ address {
 .duties {
   background-color: var(--white);
   padding-top: 60px;
-  padding-bottom: 120px;
 }
 
 .duties-list {
@@ -253,8 +257,6 @@ address {
 
 .team {
   background: var(--cloud);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .team-list {
   display: flex;

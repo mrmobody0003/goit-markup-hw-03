@@ -107,6 +107,8 @@ address {
 .header {
   background-color: var(--white);
   border-bottom: 1px solid var(--cornflower);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-container {
@@ -130,8 +132,6 @@ address {
   gap: 40px;
 }
 .nav-list_item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .nav-list_link {
   font-size: 16px;
@@ -139,6 +139,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.01em;
   color: var(--navyblue);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 /* .nav-list_link.active {
   color: var(--ocean);
@@ -212,7 +214,6 @@ address {
 /* ! Features */
 
 .features {
-  padding-top: 120px;
   padding-bottom: 60px;
   background-color: var(--white);
 }

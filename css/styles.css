@@ -214,7 +214,6 @@ address {
 /* ! Features */
 
 .features {
-  padding-bottom: 60px;
   background-color: var(--white);
 }
 
@@ -241,7 +240,7 @@ address {
 
 .duties {
   background-color: var(--white);
-  padding-top: 60px;
+  padding-top: 0;
 }
 
 .duties-list {
